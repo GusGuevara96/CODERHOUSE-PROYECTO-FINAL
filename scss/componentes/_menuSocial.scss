@@ -1,0 +1,70 @@
+
+
+
+.socialMenu {
+    position:fixed;
+    left: 0%;
+    top: 400px;
+    z-index: 2000;
+    font-size: 20px;
+
+
+    ul {
+        padding-left: 0%;
+        list-style: none;
+
+        li {
+            
+            .icon-instagram {
+                background-image: linear-gradient(to right top, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            }
+            .icon-facebook2 {
+                background: #3b5998 ;
+            }
+            .icon-whatsapp {
+            background:#008000 ;
+            }
+            .icon-twitter {
+            background:skyblue ;
+            }
+            .icon-youtube {
+            background: red;
+            }
+            .icon-linkedin {
+            background: purple;
+            }
+            .icon-google-drive {
+            background: rgb(226, 71, 71);
+            }
+
+
+
+                a {
+                    display: inline-block;
+                    color: #fff;
+                    background: #000;
+                    padding: 10px 15px;
+                    text-decoration: none;
+                    transition: all 500ms ease;
+
+                &:hover {
+                    padding:10px 50px;
+                    background: #000;
+                }
+
+            }
+        }
+    }
+
+    @media only screen and (max-width:426px) /*Mobile*/ {
+        display: none;
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+        display: none;
+    }
+
+    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+
+    }
+}

@@ -1,0 +1,583 @@
+/*typographies*/
+@import url("https://fonts.googleapis.com/css2?family=Rationale&display=swap");
+/*extends*/
+.formatArt1y3 {
+  background-color: #000;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0 10%;
+}
+
+.formatArt4 h3, .formatArt2 h3, .formatArt1y3 h3 {
+  display: inline;
+  justify-content: center;
+  background-color: #032c77;
+  color: #2bff00;
+  font-size: 40px;
+  text-align: center;
+}
+
+.formatArt4 .pSec2Art4, .formatArt4 h3, .formatArt2 .pSec2Art2, .formatArt2 h3, .formatArt1y3 .pSec2Art1y3, .formatArt1y3 h3, .formatArt1y3, .formatoSection1info article .pSec1, .formatoSection1info article h2 {
+  font-family: "Rationale", "sans-serif";
+  text-transform: uppercase;
+}
+
+.socialMenu {
+  position: fixed;
+  left: 0%;
+  top: 400px;
+  z-index: 2000;
+  font-size: 20px;
+}
+.socialMenu ul {
+  padding-left: 0%;
+  list-style: none;
+}
+.socialMenu ul li .icon-instagram {
+  background-image: linear-gradient(to right top, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.socialMenu ul li .icon-facebook2 {
+  background: #3b5998;
+}
+.socialMenu ul li .icon-whatsapp {
+  background: #008000;
+}
+.socialMenu ul li .icon-twitter {
+  background: skyblue;
+}
+.socialMenu ul li .icon-youtube {
+  background: red;
+}
+.socialMenu ul li .icon-linkedin {
+  background: purple;
+}
+.socialMenu ul li .icon-google-drive {
+  background: #e24747;
+}
+.socialMenu ul li a {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+.socialMenu ul li a:hover {
+  padding: 10px 50px;
+  background: #000;
+}
+@media only screen and (max-width: 426px) {
+  .socialMenu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .socialMenu {
+    display: none;
+  }
+}
+/*** HEADER *****/
+.estiloHeaderIndex {
+  background-image: url("https://payspacemagazine.com/wp-content/uploads/2018/10/smarthouse.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 937px;
+  display: flex;
+  flex-direction: column;
+}
+
+body header nav div .navBarCenter {
+  margin-left: 30%;
+}
+
+.bgNavBar {
+  background-color: rgba(144, 144, 194, 0.864);
+}
+
+body header h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1000%;
+  font-family: "Rationale", "sans-serif";
+  text-transform: uppercase;
+  color: #d02457;
+  padding-top: 10%;
+}
+@media screen and (max-width: 781px) {
+  body header h1 {
+    font-size: 60px;
+  }
+}
+
+/******index*******/
+.formatoSection1index {
+  display: flex;
+  background-image: url("../image/Bg-section1index.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0 10%;
+}
+
+span h3 {
+  font-size: 80px;
+  font-family: "Rationale", "sans-serif";
+  text-transform: uppercase;
+  margin: 0 18% 6%;
+}
+@media screen and (max-width: 426px) {
+  span h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  span h3 {
+    font-size: 50px;
+  }
+}
+section span p {
+  font-size: 30px;
+  font-family: "Rationale", "sans-serif";
+  text-transform: uppercase;
+}
+@media screen and (max-width: 426px) {
+  section span p {
+    margin: 0%;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  section span p {
+    margin: 0%;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  section span p {
+    margin: 0%;
+    font-size: 30px;
+  }
+}
+section span p a {
+  text-decoration: none;
+}
+section span p a:hover {
+  background-color: blueviolet;
+  color: blue;
+}
+
+.animacion {
+  animation: rollIn;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s;
+  /* don't forget to set a duration! */
+}
+
+.formatoSection2index {
+  background-image: url("../image/Bg-section2index.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0 10%;
+}
+.formatoSection2index h3 {
+  font-size: 6rem;
+  font-family: "Rationale", "sans-serif";
+  text-transform: uppercase;
+  margin: 0 18% 1.5%;
+}
+@media only screen and (max-width: 426px) {
+  .formatoSection2index h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatoSection2index h3 {
+    font-size: 4rem;
+  }
+}
+.gridSection2 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 1%;
+  grid-template-rows: 40% 40% 5%;
+  grid-row-gap: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.gridSection2 p {
+  font-size: 30px;
+  font-family: "Rationale", "sans-serif";
+  text-transform: uppercase;
+}
+.gridSection2 p a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.gridSection2 p a:hover {
+  background-color: blueviolet;
+  color: blue;
+}
+
+.imgTransform:hover {
+  transform: scale(2);
+  transition: all 4s;
+}
+
+/******pages*******/
+.formatoSection1info {
+  background-image: url("../image/CasaDomotica.jpg");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding: 0 10%;
+}
+.formatoSection1info article h2 {
+  margin-left: 10%;
+  display: block;
+  justify-content: center;
+  background-color: #032c77;
+  color: #2bff00;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 426px) {
+  .formatoSection1info article h2 {
+    font-size: 15px;
+    margin-left: 0;
+    display: block;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatoSection1info article h2 {
+    font-size: 15px;
+    margin-left: 0;
+    display: block;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .formatoSection1info article h2 {
+    margin-left: 0;
+    display: block;
+  }
+}
+.formatoSection1info article .pSec1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  color: #9b0d0d;
+}
+@media only screen and (max-width: 426px) {
+  .formatoSection1info article .pSec1 {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatoSection1info article .pSec1 {
+    font-size: 20px;
+  }
+}
+
+.formatArt1y3 {
+  text-align: center;
+  font-size: 30px;
+}
+.formatArt1y3 h3 {
+  margin-right: 3%;
+}
+@media only screen and (max-width: 426px) {
+  .formatArt1y3 h3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .formatArt1y3 h3 {
+    font-size: 30px;
+  }
+}
+.formatArt1y3 .pSec2Art1y3 {
+  color: #faf8f8;
+  font-size: 30px;
+}
+@media only screen and (max-width: 426px) {
+  .formatArt1y3 .pSec2Art1y3 {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatArt1y3 .pSec2Art1y3 {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .formatArt1y3 .pSec2Art1y3 {
+    font-size: 20px;
+  }
+}
+
+.formatArt2 {
+  background-image: url("../image/productosmart.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0 10%;
+}
+.formatArt2 h3 {
+  margin-left: 31%;
+  font-size: 30px;
+}
+@media only screen and (max-width: 426px) {
+  .formatArt2 h3 {
+    margin-left: 10%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatArt2 h3 {
+    margin-left: 15%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .formatArt2 h3 {
+    margin-left: 20%;
+  }
+}
+.formatArt2 .pSec2Art2 {
+  color: #100f0f;
+  font-size: 30px;
+}
+@media only screen and (max-width: 426px) {
+  .formatArt2 .pSec2Art2 {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatArt2 .pSec2Art2 {
+    font-size: 15px;
+  }
+}
+.formatArt4 {
+  background-image: url("../image/art2info.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0 10%;
+}
+.formatArt4 h3 {
+  margin-left: 31%;
+}
+@media only screen and (max-width: 426px) {
+  .formatArt4 h3 {
+    margin-left: 10%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatArt4 h3 {
+    margin-left: 15%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .formatArt4 h3 {
+    margin-left: 20%;
+  }
+}
+.formatArt4 .pSec2Art4 {
+  color: #131313;
+  font-size: 30px;
+}
+@media only screen and (max-width: 426px) {
+  .formatArt4 .pSec2Art4 {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .formatArt4 .pSec2Art4 {
+    font-size: 15px;
+  }
+}
+.estiloSection1y3QuienesS {
+  padding-top: 10%;
+  background-color: black;
+  padding: 0 5%;
+}
+
+.estiloSection2y4QuienesS {
+  padding-top: 10%;
+  background-color: white;
+  padding: 0 10%;
+}
+
+/******************************/
+.propH2-1y3 {
+  font-size: 60px;
+  color: blanchedalmond;
+}
+
+.propH2-2y4 {
+  font-size: 60px;
+  color: #0c0c0c;
+}
+
+/**************************************/
+.propP1y3 {
+  font-size: 35px;
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+}
+
+.propP2y4 {
+  font-size: 35px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.estiloSec1prod {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+  background-image: url("../image/Bg-section1prod.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0 5%;
+}
+@media only screen and (max-width: 426px) {
+  .estiloSec1prod {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .estiloSec1prod {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .estiloSec1prod {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.estiloSec2prod {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+  background-image: url("../image/Bg-section2prod.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0 5%;
+}
+@media only screen and (max-width: 426px) {
+  .estiloSec2prod {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .estiloSec2prod {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .estiloSec2prod {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.estiloBgbodyContacto {
+  background-color: brown;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  background-color: grey;
+  color: #ffffff;
+  border-radius: 3%;
+}
+form .button {
+  background-image: linear-gradient(to right, #635f5f, #c7c1c1);
+  color: #ffffff;
+  margin: 1% 35% 0;
+}
+
+/******footer*****/
+footer {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 1%;
+  padding-left: 2%;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+}
+@media only screen and (max-width: 426px) {
+  footer {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer section {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 426px) {
+  footer section {
+    text-align: center;
+  }
+}
+footer section p {
+  margin-bottom: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer ul {
+    padding-left: 0;
+    margin: 3% 0;
+  }
+}
+@media only screen and (max-width: 426px) {
+  footer ul {
+    padding-left: 0;
+    margin: 3% 0;
+  }
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+footer ul li a img {
+  height: 25px;
+  width: auto;
+  transition: all 300ms ease;
+}
+footer ul li a img:hover {
+  transform: scale(1.6);
+  transition: all 300ms ease;
+}
+
+/*# sourceMappingURL=style.css.map */

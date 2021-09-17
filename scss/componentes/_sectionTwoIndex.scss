@@ -1,0 +1,67 @@
+
+.formatoSection2index {
+    
+    background-image: url("../image/Bg-section2index.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0 10%;
+
+    h3 {
+        font-size: 6rem;
+        font-family: 'Rationale', "sans-serif";
+        text-transform: uppercase;
+        margin: 0 18% 1.5%;
+
+        @media only screen and (max-width:426px) /*Mobile*/ {
+            font-size: 20px;
+        }
+
+        @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/ {
+            font-size: 4rem;
+        }
+
+        @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/ {
+
+        }
+    }
+
+
+}
+
+
+.gridSection2 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 1%;
+    grid-template-rows: 40% 40% 5%;
+    grid-row-gap: 1%;
+    justify-content: center;
+    align-items: center;
+
+    p {
+    font-size: 30px;
+    font-family: 'Rationale', "sans-serif";
+    text-transform: uppercase;
+
+       
+        a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: blueviolet;
+                color: blue;
+                
+            }
+        }
+    }
+}
+
+.imgTransform:hover {
+    transform: scale(2);
+    transition: all 4s;
+}
+
+

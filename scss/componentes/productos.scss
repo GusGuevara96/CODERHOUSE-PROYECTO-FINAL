@@ -1,0 +1,54 @@
+
+
+.estiloSec1prod {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    background-image: url("../image/Bg-section1prod.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 5%;
+
+    @media only screen and (max-width:426px) /*Mobile*/ {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+        flex-wrap: wrap;
+        justify-content: center;            
+    }
+    
+}
+
+.estiloSec2prod {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    background-image: url("../image/Bg-section2prod.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 5%;
+
+
+    @media only screen and (max-width:426px) /*Mobile*/ {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+        flex-wrap: wrap;
+        justify-content: center;     
+    }
+    
+}

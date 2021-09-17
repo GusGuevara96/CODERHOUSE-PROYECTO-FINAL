@@ -1,0 +1,196 @@
+
+
+.formatoSection1info {
+    background-image: url("../image/CasaDomotica.jpg");
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding: 0 10%;
+
+        article {
+                h2 {
+                    margin-left: 10%;
+                    display: block;
+                    justify-content: center;
+                    background-color: rgb(3, 44, 119);
+                    color: #2bff00;
+                    font-size: 40px;
+                    @extend %Fonts-format;
+                    text-align: center;
+                    margin-top: 100px; 
+
+                    @media only screen and (max-width:426px) /*Mobile*/ {
+                        font-size: 15px;
+                        margin-left: 0;
+                        display: block;
+                    }
+        
+                    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                        font-size: 15px;
+                        margin-left: 0;
+                        display: block;
+                    }
+        
+                    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+                        margin-left: 0;
+                        display: block;
+                    }
+    }
+                .pSec1 {
+                    font-size: 30px;
+                    @extend %Fonts-format;
+                    text-align: center;
+                    margin-top: 100px;
+                    color: rgb(155, 13, 13);
+
+                    @media only screen and (max-width:426px) /*Mobile*/ {
+                        font-size: 15px;
+                    }
+        
+                    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                        font-size: 20px;
+                    }
+    }
+  }
+}
+
+.formatArt1y3 {
+    @extend %bg-formatoS2Info;
+    @extend %Fonts-format;
+    text-align: center;
+    font-size: 30px;
+
+        h3 {
+            margin-right: 3%;
+            @extend %estiloH3Info;
+            @extend %Fonts-format;
+
+            @media only screen and (max-width:426px) /*Mobile*/ {
+                font-size: 30px;
+            }
+
+            @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+
+            }
+
+            @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+                font-size: 30px;
+            }
+
+        }
+
+        .pSec2Art1y3 {
+            color: rgb(250, 248, 248);
+            font-size: 30px ;
+            @extend %Fonts-format;
+
+            @media only screen and (max-width:426px) /*Mobile*/ {
+                font-size: 13px;
+            }
+
+            @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                font-size: 13px;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+                font-size: 20px;
+            }
+
+        }
+}
+
+
+
+.formatArt2 {
+    background-image: url("../image/productosmart.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0 10%;
+                h3{ 
+                    margin-left: 31%;
+                    @extend %estiloH3Info;
+                    @extend %Fonts-format;
+
+                    @media only screen and (max-width:426px) /*Mobile*/ {
+                        margin-left: 10%;
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                        margin-left: 15%;
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+                        margin-left: 20%;
+                    }   font-size: 30px;
+                }
+
+                .pSec2Art2 {
+                    
+                    color: rgb(16, 15, 15);
+                    font-size: 30px ;
+                    @extend %Fonts-format;
+
+                    @media only screen and (max-width:426px) /*Mobile*/ {
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+                        
+                    }
+                }
+}
+
+.formatArt4 {
+    background-image: url("../image/art2info.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0 10%;
+
+                h3{ 
+                    margin-left: 31%;
+                    @extend %estiloH3Info;
+                    @extend %Fonts-format;
+
+                    @media only screen and (max-width:426px) /*Mobile*/ {
+                        margin-left: 10%;
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                        margin-left: 15%;
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+                        margin-left: 20%;
+                    }   
+
+                    
+
+                }
+                .pSec2Art4 {
+                    color: rgb(19, 19, 19);
+                    font-size: 30px ;
+                    @extend %Fonts-format;
+
+                    @media only screen and (max-width:426px) /*Mobile*/ {
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:426px) and (max-width:768px) /*Tablet*/{
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width:769px) and (max-width:991px) /*Desktop*/{
+
+                    }
+         }
+
+}

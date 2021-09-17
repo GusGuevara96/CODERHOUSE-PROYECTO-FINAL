@@ -1,0 +1,29 @@
+/*typographies*/
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+
+/*extends*/
+@import "base/extends";
+@import "base/variables";
+
+
+@import "componentes/menuSocial";
+@import "componentes/headersAndNavBars";
+
+
+/******index*******/
+@import "componentes/index";
+
+
+/******pages*******/
+@import "componentes/info";
+@import "componentes/quienesSomos";
+@import "componentes/productos";
+@import "componentes/contacto";
+
+/******footer*****/
+
+@import "componentes/footer";
+
+// html {
+//     font-size: 1px ;
+// }

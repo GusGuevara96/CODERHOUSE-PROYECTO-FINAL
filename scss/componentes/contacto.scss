@@ -1,0 +1,21 @@
+
+
+.estiloBgbodyContacto {
+    background-color: brown;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 2%;
+    background-color: grey;
+    color: #ffffff;
+    border-radius: 3%;
+
+    .button {
+        background-image: linear-gradient(to right, rgb(99, 95, 95), #c7c1c1);
+        color: #ffffff;
+        margin: 1% 35% 0;
+    }
+}
