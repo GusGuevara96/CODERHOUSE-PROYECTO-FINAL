@@ -18,6 +18,7 @@
 .propH2-1y3 {
     font-size: 60px;
     color: blanchedalmond;
+    @extend %Fonts-format;
     @media only screen and (max-width:426px) /*Mobile*/{
         font-size: 30px;
         }
@@ -30,6 +31,7 @@
 .propH2-2y4 {
     font-size: 60px;
     color: rgb(12, 12, 12);
+    @extend %Fonts-format;
 
     @media only screen and (max-width:426px) /*Mobile*/{
         font-size: 30px;
@@ -47,6 +49,7 @@
     color: blanchedalmond;
     display: flex;
     justify-content: center;
+    @extend %Fonts-format;
 
     @media only screen and (max-width:426px) /*Mobile*/{
         font-size: 20px;
@@ -63,6 +66,7 @@
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
+    @extend %Fonts-format;
 
     @media only screen and (max-width:426px) /*Mobile*/{
     font-size: 20px;
