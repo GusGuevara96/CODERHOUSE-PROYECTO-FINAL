@@ -418,10 +418,30 @@ section span p a:hover {
   font-size: 60px;
   color: blanchedalmond;
 }
+@media only screen and (max-width: 426px) {
+  .propH2-1y3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .propH2-1y3 {
+    font-size: 45px;
+  }
+}
 
 .propH2-2y4 {
   font-size: 60px;
   color: #0c0c0c;
+}
+@media only screen and (max-width: 426px) {
+  .propH2-2y4 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .propH2-2y4 {
+    font-size: 45px;
+  }
 }
 
 /**************************************/
@@ -431,12 +451,32 @@ section span p a:hover {
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 426px) {
+  .propP1y3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .propP1y3 {
+    font-size: 25px;
+  }
+}
 
 .propP2y4 {
   font-size: 35px;
   color: black;
   display: flex;
   justify-content: center;
+}
+@media only screen and (max-width: 426px) {
+  .propP2y4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .propP2y4 {
+    font-size: 25px;
+  }
 }
 
 .estiloSec1prod {
